@@ -5,63 +5,63 @@
       "name": "simplevox",
       "type": "archive",
       "description": "Use for anything about the person's SimpleVox business phone - calls, voicemail, texts, contacts, missed calls, follow-ups, transcripts, call activity, business hours or call routing. Triggers on \"SimpleVox\", \"who called\", \"missed calls\", \"voicemail\", \"text this customer\", \"call them back\", \"are we open\". Sets the rules every SimpleVox task follows and routes to the focused SimpleVox skills.",
-      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.3/simplevox-1.0.3.tar.gz",
+      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.4/simplevox-1.0.4.tar.gz",
       "digest": "sha256:5585417b73fb2f5909edfc2ae5e37e13bc708b5ed2b5db31b741974fbe157376"
     },
     {
       "name": "simplevox-activity",
       "type": "archive",
       "description": "Report SimpleVox call and text activity over a period - totals, answered, missed, voicemail, texts sent - compared with the period before, using SimpleVox's own counts. Use for \"how many calls did we miss last week\", \"call volume this month\", \"how did we do\", \"busiest day\", \"weekly report\". Read-only; never estimates numbers SimpleVox didn't return.",
-      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.3/simplevox-activity-1.0.3.tar.gz",
+      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.4/simplevox-activity-1.0.4.tar.gz",
       "digest": "sha256:4df98f1bb4ce6110d79128f196dbee98e038c68483c816c00287c540141ed820"
     },
     {
       "name": "simplevox-call",
       "type": "archive",
       "description": "Place a SimpleVox call for the person - SimpleVox rings their own phone or browser first, says who it is calling when they answer, then dials the customer from the business number - and check on it or hang up. Use for \"call Mary\", \"call them back\", \"set up a call with\", \"ring my phone and connect me to\", \"hang up\", \"is the call connected\". No AI is on the call; it needs an explicit yes first.",
-      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.3/simplevox-call-1.0.3.tar.gz",
+      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.4/simplevox-call-1.0.4.tar.gz",
       "digest": "sha256:4cc8dbd9abc384b67e048e02fa46a7454df9f8662ba98458c632702255b94f4b"
     },
     {
       "name": "simplevox-catch-up",
       "type": "archive",
       "description": "Give the person a short, read-only SimpleVox briefing of who called and texted, who still needs a reply, unread texts and anything else worth knowing over a window they choose. Use for \"what did I miss\", \"catch me up\", \"morning briefing\", \"who called today\", \"anything overnight\", \"any voicemails\". Never sends, calls or marks anything.",
-      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.3/simplevox-catch-up-1.0.3.tar.gz",
+      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.4/simplevox-catch-up-1.0.4.tar.gz",
       "digest": "sha256:7315bb008dcd2383d6429727520f9c9cff92de9b6d133213de7fd5caf227e5b5"
     },
     {
       "name": "simplevox-contacts",
       "type": "archive",
       "description": "Find, save and update the shared SimpleVox contacts for the person's business. Use for \"find Mary's number\", \"who is +1 202 555 0123\", \"save this caller as a contact\", \"add her email\", \"change his mobile number\", \"fix the company name\". Changes need the person's confirmation.",
-      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.3/simplevox-contacts-1.0.3.tar.gz",
+      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.4/simplevox-contacts-1.0.4.tar.gz",
       "digest": "sha256:3528c78fd96f19086639577ca8b117883ba5a851793408b2aff77900ae7f594d"
     },
     {
       "name": "simplevox-find-and-quote",
       "type": "archive",
       "description": "Find what a customer said in SimpleVox calls, voicemail or texts and quote it exactly with a link to the source. Use for \"what did Mary say about\", \"find the text about Thursday\", \"did anyone mention a gate code\", \"summarize our calls with this customer\", \"play that voicemail\", \"what happened with this caller\". Read-only.",
-      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.3/simplevox-find-and-quote-1.0.3.tar.gz",
+      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.4/simplevox-find-and-quote-1.0.4.tar.gz",
       "digest": "sha256:9b90ce4daaa6fe592f2b3b9ac48a82be7bc3d6378c1567762cd61f89959bad3b"
     },
     {
       "name": "simplevox-follow-ups",
       "type": "archive",
       "description": "Find SimpleVox missed calls and voicemails nobody has answered, work out what each caller wanted, draft one reply per caller, and send only the drafts the person approves. Use for \"who needs a call back\", \"follow up on missed calls\", \"go through the voicemails\", \"draft replies to everyone who called\", \"clear the voicemail inbox\". Drafts are always shown first.",
-      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.3/simplevox-follow-ups-1.0.3.tar.gz",
+      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.4/simplevox-follow-ups-1.0.4.tar.gz",
       "digest": "sha256:ec14f7054794812310d9874746be1939bcd6b9f055f6d97abdabcdef997a95cc"
     },
     {
       "name": "simplevox-setup",
       "type": "archive",
       "description": "Explain the person's SimpleVox setup - their numbers, timezone, what this connection may do, missing setup steps, business hours and call routing - and what to do next. Use for \"what's my number\", \"why can't I send texts\", \"what can SimpleVox do here\", \"are we open right now\", \"what happens when someone calls after hours\", \"who gets the call\". Read-only; changes happen in the SimpleVox app.",
-      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.3/simplevox-setup-1.0.3.tar.gz",
+      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.4/simplevox-setup-1.0.4.tar.gz",
       "digest": "sha256:02d70b6d3839926eab84d98ba7d1ee4ed6cf9263f932750f023c6b8f2c4c113d"
     },
     {
       "name": "simplevox-text",
       "type": "archive",
       "description": "Draft or send a text from the person's SimpleVox business number, with the recipient, line and exact text confirmed first. Use for \"text Mary\", \"send a text to\", \"reply to that text\", \"let the customer know\", \"draft a text\". Drafting never sends; sending needs an explicit yes.",
-      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.3/simplevox-text-1.0.3.tar.gz",
+      "url": "https://github.com/simplevox/simplevox-skills/releases/download/v1.0.4/simplevox-text-1.0.4.tar.gz",
       "digest": "sha256:21567e12a82af89e9ba9759ec4bd5fcd651288d74364b19a06761601ce2d0f7b"
     }
   ]

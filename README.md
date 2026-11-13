@@ -1,6 +1,6 @@
 # SimpleVox skills
 
-The canonical public distribution of SimpleVox's shared agent skills, version 1.0.3.
+The canonical public distribution of SimpleVox's shared agent skills, version 1.0.4.
 These are the same skills shipped in every SimpleVox plugin. The skills connect to
 the MCP server at `https://my.simplevox.app/mcp`; they are instructions, not an A2A service.
 
